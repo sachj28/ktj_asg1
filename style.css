@@ -215,6 +215,7 @@ a {
 
  .new{
        height : 600px;
+       width : 1520px;
        background: repeating-linear-gradient(cyan, rgb(191, 191, 219));
        position: relative;
        top : 110px;
@@ -352,6 +353,7 @@ a {
        background-position: center;
        background-size: contain;
        height: 600px;
+       width : 1520px;
        font-family: modern sans;
        position: relative;
        top : 117px;
@@ -514,6 +516,7 @@ a {
        background-position: center;
        background-size: contain;
        height: 1280px;
+       
        font-family: modern sans;
        position: relative;
        top : 125px;
@@ -610,6 +613,7 @@ a {
    background: linear-gradient( rgba(191, 191, 219, 0.801),rgba(0, 255, 255, 0.808)),url(users.jpg);
    margin-top: 5px;
    height : 500px;
+   width : 1520px;
    font-family: modern sans;
    position: relative;
    top : 125px;
@@ -719,7 +723,8 @@ a {
  .reveiw{
 
        height : 400px;
-       background-image: url(reveiw_bg.jpg) cover;
+       width : 1520px;
+       background-image: url(reveiw_bg.jpg);
        font-family: modern sans;
        position: relative;
        top : 130px;
@@ -802,6 +807,7 @@ a {
 
    background:rgb(40, 43, 43) ;
    height : 220px;
+   width : 1520px;
    margin-top : 145px;
    
 
@@ -872,17 +878,20 @@ a {
 
 
 
-@media  (max-width:900px)
+@media (max-width:900px)
 {
 
-   html{
-        font-size : 1000%;
+   body{
+        font-size : 70%;
+        
         
       }
 
    .new {
         
-        width : 1520px;
+      background-color: #d61E55;
+      height: 100000px;;
+
    }   
 
 }
